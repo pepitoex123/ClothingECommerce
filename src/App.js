@@ -52,7 +52,7 @@ class App extends React.Component {
 
     render(){
         return (
-            <BrowserRouter>
+            <div>
                 <Header />
                 <div>
                     <Switch>
@@ -62,7 +62,7 @@ class App extends React.Component {
                         <Route exact={true} path="/checkout" component={CheckoutPage}/>
                     </Switch>
                 </div>
-            </BrowserRouter>
+            </div>
         );
     }
 }
